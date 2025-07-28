@@ -1,0 +1,24 @@
+# Example config with 5 routers, 3 of which support virtualization into 4 VDCs
+# each (lab-router 1-3), and 2 of which are used directly (lab-router 4-5).
+vdcs = [
+  "lab-vdc1-1",
+# "lab-vdc1-2",
+# "lab-vdc1-3",
+# "lab-vdc1-4",
+# "lab-vdc2-1",
+# "lab-vdc2-2",
+# "lab-vdc2-3",
+# "lab-vdc2-4",
+# "lab-vdc3-1",
+# "lab-vdc3-2",
+# "lab-vdc3-3",
+# "lab-vdc3-4",
+# "lab-router4",
+# "lab-router5",
+]
+
+routers = [
+  "lab-router1",
+  "lab-router2",
+# "lab-router3",
+]

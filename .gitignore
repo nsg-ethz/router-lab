@@ -1,0 +1,9 @@
+/target
+Cargo.lock
+
+config/*
+!config/routers.toml
+!config/config.toml
+!config/tofino_controller.py
+
+example_data/*
