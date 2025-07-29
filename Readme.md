@@ -15,3 +15,7 @@ ifaces = [
 ```
 
 Also, make sure to export the path to the configuration into the environment variable `LAB_SETUP_CONFIG`.
+
+## Experiment tools
+
+We have devised programs to emulate physical network delays (`tools/delayer`), introduce active probing traffic in the network for measurements (`tools/prober`) and evaluating the measurement traffic at a destination server (`tools/collector`).
